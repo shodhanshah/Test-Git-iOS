@@ -21,6 +21,7 @@
 		AD9A37201825FC26005B3BF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9A37021825FC25005B3BF1 /* UIKit.framework */; };
 		AD9A37281825FC26005B3BF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD9A37261825FC26005B3BF1 /* InfoPlist.strings */; };
 		AD9A372A1825FC26005B3BF1 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9A37291825FC26005B3BF1 /* GitTestTests.m */; };
+		AD9A373818260678005B3BF1 /* SSAddTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9A373718260678005B3BF1 /* SSAddTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AD9A37251825FC26005B3BF1 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		AD9A37271825FC26005B3BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD9A37291825FC26005B3BF1 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		AD9A373618260678005B3BF1 /* SSAddTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAddTest.h; sourceTree = "<group>"; };
+		AD9A373718260678005B3BF1 /* SSAddTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAddTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				AD9A37141825FC25005B3BF1 /* SSViewController.m */,
 				AD9A37161825FC25005B3BF1 /* Images.xcassets */,
 				AD9A37051825FC25005B3BF1 /* Supporting Files */,
+				AD9A373618260678005B3BF1 /* SSAddTest.h */,
+				AD9A373718260678005B3BF1 /* SSAddTest.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9A37151825FC25005B3BF1 /* SSViewController.m in Sources */,
+				AD9A373818260678005B3BF1 /* SSAddTest.m in Sources */,
 				AD9A370F1825FC25005B3BF1 /* SSAppDelegate.m in Sources */,
 				AD9A370B1825FC25005B3BF1 /* main.m in Sources */,
 			);
